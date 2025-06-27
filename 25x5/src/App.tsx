@@ -1,8 +1,11 @@
 import './styles/theme.css'
 import './styles/global.css'
+import { Heading } from './components/Heading';
 
 export function Teste() {
     return (
-        <h1>Olá mundo do app</h1>
+        <>
+            <Heading />
+        </>
     );
 }
