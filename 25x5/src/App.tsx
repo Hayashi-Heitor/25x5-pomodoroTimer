@@ -1,20 +1,20 @@
 import './styles/theme.css'
 import './styles/global.css'
-import { Heading } from './components/Heading';
+
 import { Hourglass } from 'lucide-react';
 
-export function Teste() {
+import { Heading } from './components/Heading';
+import { Container} from './components/Container'
+
+export function App() {
     return (
         <>
-            <Heading>
-                    Olá mundo 
-                    <button> <Hourglass /> </button>
-            </Heading>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate molestias iste repellat delectus impedit culpa ducimus dolores veritatis vel. Iusto,
-                voluptatem aliquid earum exercitationem repudiandae laboriosam incidunt voluptates dolorum a?
-            </p>
+            <Container>
+                <section>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus 
+                    quaerat quas nesciunt repellat numquam deserunt corporis, aut ratione facere qui inventore. Alias vero saepe minus unde voluptates nobis itaque culpa!</p>
+                </section>
+            </Container>
         </>
     );
 }
